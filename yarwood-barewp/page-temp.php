@@ -19,7 +19,7 @@ body {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #FFF;
-	background: #ededed url(<?php bloginfo('template_directory'); ?>/404-bg.png);
+	background: #ededed;
 }
  
 #fourOhFour {
