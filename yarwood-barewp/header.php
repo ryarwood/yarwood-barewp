@@ -12,3 +12,6 @@
 <title><?php the_title(); ?></title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
+</head>
+
+<body>
