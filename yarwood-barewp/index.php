@@ -12,9 +12,9 @@ while (have_posts()) : the_post();
 ?>
 
 <div class="newsPost">
-<h2><?php the_title(); ?></h2>
-<h3><?php the_time('F jS, Y') ?></h3>
-<?php the_content(); ?>
+  <h2><?php the_title(); ?></h2>
+  <h3><?php the_time('F jS, Y') ?></h3>
+  <?php the_content(); ?>
 </div>
 
 <?php endwhile; ?>

@@ -12,6 +12,17 @@
 <title><?php the_title(); ?></title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
+
+<link href="<?php bloginfo('template_directory'); ?>/includes/css/screen.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php bloginfo('template_directory'); ?>/includes/css/print.css" rel="stylesheet" type="text/css" media="print" />
+<!--[if lte IE 8]>
+<link href="<?php bloginfo('template_directory'); ?>/includes/css-ie.css" rel="stylesheet" type="text/css" media="all" />
+<![endif]-->
+
+<?php //if(is_page('new-homes')) { include(TEMPLATEPATH . '/includes-map-includes-southern.php'); } // conditional include example ?>
+
 </head>
 
 <body>
+
+<?php include(TEMPLATEPATH . '/includes/php/navigation.php'); // regular include example ?>
